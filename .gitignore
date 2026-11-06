@@ -1,0 +1,21 @@
+# Sensitive Windows event data
+windows_4625.json
+*.log
+
+# API keys and credentials
+.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.bak
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
